@@ -14,8 +14,7 @@
       .photobooth_main {
         .photobooth_slogan {
           font-size: 40px;
-          font-weight: 700;
-          font-family: "Montserrat-Bold";
+          font-weight: 700; 
           padding-top: 35px;
         }
 
@@ -94,7 +93,7 @@
           h3 {
             font-weight: 500;
             font-size: 18px;
-            font-family: "Montserrat-Medium";
+             
           }
 
           p {
@@ -123,7 +122,7 @@
   .prostir_desc_title {
     font-size: 40px;
     font-weight: 700;
-    font-family: "Montserrat-Bold";
+    font-weight: 700;
   }
 
   .prostir_desc_text {
@@ -191,7 +190,7 @@ section.locations {
     margin: 0 auto;
 
     .locations_title {
-      font-family: "Montserrat-Bold";
+      font-weight: 700;
       font-size: 36px;
       font-weight: 700;
       margin: 144px 0 68px 0;
@@ -226,14 +225,12 @@ section.locations {
       .hall_price_text {
         padding: 10px 18px;
         color: white;
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 16px; 
       }
     }
 
-    strong {
+    strong { 
       font-weight: 600;
-      font-family: "Montserrat-SemiBold";
 
     }
   }
@@ -253,7 +250,7 @@ section.why_we {
     h2 {
       color: #0C3D4E;
       font-size: 36px;
-      font-family: "Montserrat-Bold";
+      font-weight: 700;
     }
   }
 
@@ -295,7 +292,7 @@ section.why_we {
         }
 
         p {
-          font-family: "Montserrat-Thin";
+        font-weight: 100;
           font-size: 18px;
           margin-bottom: 70px;
         }
@@ -320,7 +317,7 @@ section.why_we {
       .container_bottom_btn_text {
         color: black;
         font-size: 16px;
-        font-family: "Montserrat-Medium";
+        font-weight: 500;
       }
 
     }
@@ -340,14 +337,14 @@ section.services_info {
 
     .services_info_text {
       h2 {
-        font-family: "Montserrat-Bold", serif;
+      font-weight: 700;
         font-size: 36px;
         margin: 0 0 75px 7px;
       }
 
       .services_advantages {
         h3 {
-          font-family: "Montserrat-Bold", serif;
+          font-weight: 700;
           font-size: 18px;
           margin-bottom: 18px;
         }
@@ -368,7 +365,7 @@ section.services_info {
 
           h2 {
             font-size: 64px;
-            font-family: "Montserrat-Bold", serif;
+            font-weight: 700;
             margin: 55px 0 0 0;
           }
 

@@ -71,21 +71,4 @@
       }
     }
   }
-}
-
-@keyframes heightFade {
-  from {
-    max-height: 100px;
-  }
-  to {
-    max-height: 70px;
-  }
-}
-@keyframes heightFadeReverse {
-  from {
-    max-height: 70px;
-  }
-  to {
-    max-height: 100px;
-  }
-}
+} 
