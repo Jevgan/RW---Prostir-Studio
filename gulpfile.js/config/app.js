@@ -18,6 +18,6 @@ module.exports = {
     // },
     
     fonter: {  
-        formats: ["ttf", "woff", "eot"]
+        formats: ["ttf", "woff"]
     }
 } 
