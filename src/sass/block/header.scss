@@ -1,0 +1,91 @@
+.header {
+  background-color: #252525;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 999;
+  height: 60px;
+  .header_container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between; 
+    .logo {
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 16px;
+      color:white;
+    }
+
+    .menu-list {
+      display: flex;
+      gap: 55px;
+      font-weight: 400;
+      font-size: 16px; 
+    }
+
+    .contacts {
+      display: flex;
+      gap: 66px;
+      align-items: center;
+      line-height: 14px;
+      position: relative;
+      .social-networks { 
+        display: flex;
+        gap: 1px;
+        position: relative;
+        .instagram {
+          &::after {
+            content: "";
+            background: url("../../img/Instagram.svg");
+            display: flex;
+            width: 28px;
+            height: 28px;
+          }
+        }
+        .facebook {
+          &::after {
+            content: "";
+            background: url("../../img/Facebook.svg");
+            display: flex;
+            width: 28px;
+            height: 28px;
+          }
+        }
+      }
+      .tel_number { 
+        position: relative;
+        .tel{
+          &::before {
+            content: "";
+            background: url("../../img/Phone.svg");
+            position: absolute; 
+            margin-left: -30px;
+            margin-top: -8px;
+            width: 28px;
+            height: 28px;
+          }
+        } 
+      }
+    }
+  }
+}
+
+@keyframes heightFade {
+  from {
+    max-height: 100px;
+  }
+  to {
+    max-height: 70px;
+  }
+}
+@keyframes heightFadeReverse {
+  from {
+    max-height: 70px;
+  }
+  to {
+    max-height: 100px;
+  }
+}

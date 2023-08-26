@@ -1,0 +1,383 @@
+.top_section {
+  padding-top: 168px;
+
+  .section_container {
+    width: 85%;
+    height: 66vh;
+    margin: 0 auto;
+
+    .photobooth_options {
+      display: flex;
+      justify-content: space-between;
+
+      // Main of sect
+      .photobooth_main {
+        .photobooth_slogan {
+          font-size: 40px;
+          font-weight: 700;
+          font-family: "Montserrat-Bold";
+          padding-top: 35px;
+        }
+
+        .photobooth_offer {
+          padding-top: 50px;
+          padding-bottom: 27px;
+        }
+
+        .btn_ref {
+          .photobooth_selection_btn {
+            background: rgba(12, 61, 78, 0.6);
+            border-radius: 69px;
+            width: 221px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .btn_text {
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .photographer_select {
+          padding-top: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          gap: 10px;
+
+          .photo {}
+        }
+      }
+
+      // aside of sect
+      .photobooth_aside {
+        .equipment_n_photobooth {
+          display: flex;
+          gap: 20px;
+
+          .equipment {}
+
+          .aside_photobooth_text {
+            margin-top: 27px;
+          }
+
+          .photobooth_selection {
+            .under_selection {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+            }
+
+            .selection_text {}
+
+            .photobooth_selection_btn {
+              background: rgba(12, 61, 78, .6);
+              border-radius: 100%;
+              margin-top: 15px;
+              width: 44px;
+              height: 44px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              img {
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+
+        .aside_photobooth_text {
+          h3 {
+            font-weight: 500;
+            font-size: 18px;
+            font-family: "Montserrat-Medium";
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.scnd_section {
+  margin-top: 155px;
+
+  .scnd_container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+
+    .prostir_desc {
+      margin: 76px 0 0 141px;
+    }
+  }
+
+  .prostir_desc_title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat-Bold";
+  }
+
+  .prostir_desc_text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .advantages {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 80px 0 0 86px;
+    position: relative;
+
+    .advantage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 64px;
+
+      &.parking::before {
+        content: "";
+        width: 62px;
+        height: 62px;
+        display: flex;
+        margin-left: -85px;
+        position: absolute;
+        background-color: #000;
+        border-radius: 100%;
+        z-index: 4;
+        background-image: url("../../img/ph_car.svg")no-repeat center;
+      }
+
+      &.convenient_location::before {
+        content: "";
+        width: 62px;
+        height: 62px;
+        display: flex;
+        margin-left: -85px;
+        position: absolute;
+        background-color: #000;
+        border-radius: 100%;
+        z-index: -4;
+        background-image: url("../../img/ei_location.svg")no-repeat center;
+      }
+
+      &.diferent_photographers::before {
+        content: "";
+        width: 62px;
+        height: 62px;
+        display: flex;
+        margin-left: -85px;
+        position: absolute;
+        background-color: #000;
+        border-radius: 100%;
+        z-index: -4;
+        background-image: url("../../img/camera.svg")no-repeat center;
+      }
+    }
+  }
+}
+
+section.locations {
+  .locations_container {
+    width: 85%;
+    margin: 0 auto;
+
+    .locations_title {
+      font-family: "Montserrat-Bold";
+      font-size: 36px;
+      font-weight: 700;
+      margin: 144px 0 68px 0;
+      text-transform: uppercase;
+    }
+
+    .locations_desc {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hallname_and_price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 27px 0 27px 0;
+
+    }
+
+    .hall_name {
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .hall_price {
+      border-radius: 30px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .hall_price_text {
+        padding: 10px 18px;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+
+    strong {
+      font-weight: 600;
+      font-family: "Montserrat-SemiBold";
+
+    }
+  }
+}
+
+section.why_we {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 162px;
+
+  .container_top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .why_we_title_advantages {
+    h2 {
+      color: #0C3D4E;
+      font-size: 36px;
+      font-family: "Montserrat-Bold";
+    }
+  }
+
+  .why_we_advantages {
+    width: 548px;
+    padding-top: 50px;
+
+    li {
+
+      img {
+        margin-right: 16px;
+      }
+
+      display: flex;
+      align-items: center;
+      padding: 20px 0 0 0;
+      border-bottom: 1px solid black;
+    }
+
+  }
+
+  .container_bottom {
+    margin-top: 100px;
+
+    .container_bottom_wrapper {
+      display: flex;
+      background-color: black;
+      border-radius: 20px;
+
+      .container_bottom_text {
+        color: white;
+        margin: auto 0;
+
+        h3 {
+          text-transform: uppercase;
+          font-size: 28px;
+          font-weight: 600;
+          margin-bottom: 40px;
+        }
+
+        p {
+          font-family: "Montserrat-Thin";
+          font-size: 18px;
+          margin-bottom: 70px;
+        }
+      }
+
+      .container_bottom_photo {
+        display: flex;
+        padding: 22px 75px 22px 19px;
+      }
+
+      .container_bottom_btn {
+        background-color: #fff;
+        border-radius: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 221px;
+        height: 45px;
+
+      }
+
+      .container_bottom_btn_text {
+        color: black;
+        font-size: 16px;
+        font-family: "Montserrat-Medium";
+      }
+
+    }
+
+  }
+
+}
+
+section.services_info {
+  margin: 0 auto;
+  width: 85%;
+
+  .services_info_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+
+    .services_info_text {
+      h2 {
+        font-family: "Montserrat-Bold", serif;
+        font-size: 36px;
+        margin: 0 0 75px 7px;
+      }
+
+      .services_advantages {
+        h3 {
+          font-family: "Montserrat-Bold", serif;
+          font-size: 18px;
+          margin-bottom: 18px;
+        }
+
+        p {
+          font-size: 18px;
+          margin: 0 0 34px 0;
+        }
+      }
+    }
+
+    .services_photo_and_exp {
+      .services_exp {
+        display: flex;
+
+        .services_exp_text {
+          margin-right: 27px;
+
+          h2 {
+            font-size: 64px;
+            font-family: "Montserrat-Bold", serif;
+            margin: 55px 0 0 0;
+          }
+
+          p {
+            font-size: 16px;
+            margin: 16px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}

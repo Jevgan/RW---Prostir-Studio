@@ -1,0 +1,99 @@
+footer {
+    margin-top: 481px;
+
+    .footer_container {
+
+        .footer_contact_info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-bottom: 1px solid black;
+            padding-bottom: 41px;
+            height: 235px;
+
+            .heading_title {
+                text-align: center;
+            }
+
+            .contact_grid {
+                display: grid;
+                grid-template-columns: 442px 500px 442px;
+                margin-top: 44px;
+
+                .contact_grid_item {
+                    padding-bottom: 11px;
+                    text-align: center;
+
+
+                    h2 {
+                        font-size: 30px;
+                        font-family: "Montserrat-Thin", serif;
+                    }
+
+                    .grid_email {
+                        .footer_icon {
+                            padding: 20px 0 27px 0;
+                            margin-left: 15px;
+                        }
+                    }
+
+                    .grid_location {
+                        .footer_icon {
+                            padding: 20px 0 25px 0;
+                            margin-left: 15px;
+                        }
+                    }
+
+                    .grid_telegram {
+                        .footer_icon {
+                            padding: 20px 0 26px 0;
+                            margin-left: 15px;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 24px;
+                    }
+                }
+
+                .contact_grid_item:not(.border-not) {
+                    border-right: 1px solid black;
+                }
+            }
+        }
+
+        .footer_bottom {
+            display: flex;
+            width: 85%;
+            margin: 0 auto;
+            justify-content: space-between;
+            padding-top: 44px;
+            margin-top: 160px;
+            border-top: 1px solid black;
+
+            .footer_menu {
+                align-self: center;
+
+                .footer_list {
+                    gap: 30px;
+                    display: flex;
+
+                    .footer_list_item {
+                        font-size: 16px;
+                        font-family: "Montserrat-Medium", serif;
+                        letter-spacing: -0.24px;
+                    }
+                }
+            }
+
+            .footer_bottom_icons {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+
+            }
+        }
+    }
+}
