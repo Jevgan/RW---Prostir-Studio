@@ -30,8 +30,8 @@ module.exports = {
         dest: pathDest  + "/img"
     },
     font: {
-        src: pathSrc + "/font/*.{eot,ttf,otf,otc,woff,woff2}",
-        watch: pathSrc + "/font/**/*.{eot,ttf,otf,otc,woff,woff2}",
+        src: pathSrc + "/font/*.ttf",
+        watch: pathSrc + "/font/**/*.ttf",
         dest: pathDest  + "/font"
     },
 }  

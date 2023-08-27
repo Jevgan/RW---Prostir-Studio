@@ -11,13 +11,13 @@ module.exports = {
 
     webpack: {
         mode: isProd ? "production" : "development"
-    }
+    },
 
     // imagemin: {
     //     verbose: true
     // },
     
-    // fonter: {  
-    //     formats: ["ttf", "woff"]
-    // }
+    fonter: {  
+        formats: ["ttf", "woff"]
+    }
 } 
