@@ -12,7 +12,7 @@ const font = () => {
         .pipe($.gp.newer($.path.font.dest))  
         .pipe(gulpif($.app.isProd,$.gp.fonter($.app.fonter)))    
         .pipe($.gulp.dest($.path.font.dest))
-        .pipe(gulpif($.app.isProd,$.gp.ttf2woff2()))
+        // .pipe(gulpif($.app.isProd,$.gp.ttf2woff2()))
         .pipe($.gulp.dest($.path.font.dest)); 
 }
 
